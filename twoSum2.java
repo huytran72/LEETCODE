@@ -12,7 +12,7 @@ public class twoSum2 {
         for (int i = 0; i < nums.length; i++) {
             int newtarget = target - nums[i];
             if(arrMap.containsKey(newtarget) && arrMap.get(newtarget) != i) {
-                return new int[] {i, newtarget};
+                return new int[] {i, arrMap.get(newtarget)};
             }
         }
         return new int[] {};
