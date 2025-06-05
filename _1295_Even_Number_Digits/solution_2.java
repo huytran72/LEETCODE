@@ -15,7 +15,8 @@ public class solution_2 {
     }
 
     public static void main(String[] args) {
-        int nums[] = {555,901,482,1771, 1, 22, 333, 4444};
+        // int nums[] = {555,901,482,1771, 1, 22, 333, 4444};
+        int nums[] = {11};
 
         solution_2 sol = new solution_2();
         int res = sol.findNumbers(nums);
