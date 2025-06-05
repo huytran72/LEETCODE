@@ -5,7 +5,6 @@ public class solution_1 {
     
 }
 
-main
 psvm
 
 
