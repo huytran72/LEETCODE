@@ -10,22 +10,28 @@ public class solution_1 {
                 count++;
             }
         }
-
-
-        
-
         return count;
     }
 
 
-    private int numsofDigits(int a) {
-        
-        throw new UnsupportedOperationException("Unimplemented method 'numsofDigits'");
+    public int numsofDigits(int a) {
+        int cnt = 0;
+
+        while( a != 0) {
+            a /= 10;
+            cnt++;
+        }
+        return cnt;
     }
 
 
     public static void main(String[] args) {
-        
+        int nums[] = {12,345,2,6,7896};
+
+        solution_1 sol = new solution_1();
+        int result = sol.findNumbers(nums);
+
+        System.out.println("Count of numbers with even digits: " + result);
     }
     
 }
