@@ -1,7 +1,7 @@
 // package _88_Merge_Shorted_Array;
 
 public class solution_1 {
-    public void merge(int[] nums1, int m, int[] nums2, int n) {
+    public static void merge(int[] nums1, int m, int[] nums2, int n) {
         int[] merged = new int[m+n];
         int i = 0; int j = 0; int k = 0;
 
