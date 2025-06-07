@@ -35,6 +35,9 @@ public class solution_1 {
 
         solution_1 solution = new solution_1();
         solution.merge(nums1, m, nums2, n);
+        for (int num : nums1) {
+            System.out.print(num + " ");
+        }
         
     }
 }
