@@ -21,8 +21,8 @@ public class solution_1 {
             merged[k++] = nums1[i++];
         }
 
-        for (int x = 0; x < m + n; i++) {
-            merged[x] = nums1[x];
+        for (int x = 0; x < m + n; x++) {
+            nums1[x] = merged[x];
         }
     }
 
