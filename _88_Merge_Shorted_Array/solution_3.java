@@ -28,3 +28,4 @@ public class solution_3 {
 }
 
 // // Time Complexity: O((m + n) log(m + n)) - The sorting step dominates the time complexity.
+// // Space Complexity: O(1) - No extra space is used for merging, we modify nums1 in place.
