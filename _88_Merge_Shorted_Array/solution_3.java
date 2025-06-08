@@ -8,7 +8,7 @@ public class solution_3 {
         for (int j = 0, i = m; j < n ; j++) {
             nums1[i++] = nums2[j];
         }
-        Array.sort(nums1);
+        Arrays.sort(nums1);
     }
 
     // Test case
