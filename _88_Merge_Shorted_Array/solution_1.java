@@ -43,3 +43,4 @@ public class solution_1 {
 }
 
 // Time Complexity: O(m + n)
+// Space Complexity: O(m + n) - We use an additional array to store the merged result.
