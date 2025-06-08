@@ -6,8 +6,8 @@ import java.util.Arrays;
 
 public class solution_3 {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
-        for (int j = 0, i = m; j < n ; j++) {
-            nums1[i++] = nums2[j];
+        for (int j =0 ; j < n ; j++) {
+            nums1[j+m] = nums2[j];
         }
         Arrays.sort(nums1);
     }
