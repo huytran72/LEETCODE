@@ -26,3 +26,5 @@ public class solution_3 {
         }
     }
 }
+
+// // Time Complexity: O((m + n) log(m + n)) - The sorting step dominates the time complexity.
