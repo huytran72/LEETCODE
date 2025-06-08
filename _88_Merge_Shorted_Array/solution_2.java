@@ -33,3 +33,6 @@ public class solution_2 {
         }
     }
 }
+
+// Time Complexity: O(m + n)
+// Space Complexity: O(1) - No extra space is used for merging, we modify nums1 in place.
