@@ -25,14 +25,14 @@
 // Output: -1
 // Explanation: There is no valid middleIndex.
  
-
 // Constraints:
 // 1 <= nums.length <= 100
 // -1000 <= nums[i] <= 1000
 
 
-// METHOD: BRUTE FORCE
 
+
+// METHOD: BRUTE FORCE
 // Idea:
 // 1. Iterate through each index i of the array.
 // 2. For each index i, calculate the sum of elements to the left and right.
