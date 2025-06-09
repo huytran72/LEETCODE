@@ -30,6 +30,9 @@
 // 1 <= nums.length <= 100
 // -1000 <= nums[i] <= 1000
 
+
+// METHOD: BRUTE FORCE
+
 public class solution_1 {
     
 }
