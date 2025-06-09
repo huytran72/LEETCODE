@@ -33,6 +33,10 @@
 
 // METHOD: BRUTE FORCE
 
+// Idea:
+// 1. Iterate through each index of the array.
+// 2. For each index, calculate the sum of elements to the left and right.
+
 public class solution_1 {
     
 }
