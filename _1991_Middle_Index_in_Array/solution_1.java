@@ -34,8 +34,10 @@
 // METHOD: BRUTE FORCE
 
 // Idea:
-// 1. Iterate through each index of the array.
-// 2. For each index, calculate the sum of elements to the left and right.
+// 1. Iterate through each index i of the array.
+// 2. For each index i, calculate the sum of elements to the left and right.
+// Sum of Left: from 0 to i - 1
+// Sum of Right: from i + 1 to nums.length - 1 
 
 public class solution_1 {
     
