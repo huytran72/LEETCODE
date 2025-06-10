@@ -47,6 +47,9 @@ public class solution_1 {
             int rightSum =0;
 
             // Calculate left sum
+            for (int j = 0; j < i; j++) {
+                leftSum += nums[j];
+            }
         }
     };
 }
