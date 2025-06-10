@@ -61,5 +61,6 @@ public class solution_1 {
                 return i; // Return the leftmost middle index
             }
         }
+        return -1; // If no middle index found, return -1
     };
 }
