@@ -63,4 +63,15 @@ public class solution_1 {
         }
         return -1; // If no middle index found, return -1
     };
+
+    public static void main(String[] args) {
+        int[] nums = {2, 3, -1, 8, 4};
+        System.out.println(findMiddleIndex(nums)); // Output: 3
+
+        nums = new int[]{1, -1, 4};
+        System.out.println(findMiddleIndex(nums)); // Output: 2
+
+        nums = new int[]{2, 5};
+        System.out.println(findMiddleIndex(nums)); // Output: -1
+    }
 }
