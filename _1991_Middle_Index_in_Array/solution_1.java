@@ -57,6 +57,9 @@ public class solution_1 {
             }
 
             // Check if left sum equals right sum
+            if (leftSum == rightSum) {
+                return i; // Return the leftmost middle index
+            }
         }
     };
 }
