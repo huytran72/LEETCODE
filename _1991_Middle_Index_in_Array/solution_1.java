@@ -55,6 +55,8 @@ public class solution_1 {
             for (int j = i + 1; j < nums.length; j++) {
                 rightSum += nums[j];
             }
+
+            // Check if left sum equals right sum
         }
     };
 }
