@@ -40,7 +40,10 @@
 // Sum of Right: from i + 1 to nums.length - 1 
 
 public class solution_1 {
-    public int findMiddleIndex(int[] nums) {
+    public static int findMiddleIndex(int[] nums) {
         
-    }
+        for (int i = 0; i < nums.length; i++) {
+
+        }
+    };
 }
