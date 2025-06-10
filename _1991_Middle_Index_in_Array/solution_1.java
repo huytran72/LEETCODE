@@ -50,6 +50,8 @@ public class solution_1 {
             for (int j = 0; j < i; j++) {
                 leftSum += nums[j];
             }
+
+            // Calculate right sum
         }
     };
 }
