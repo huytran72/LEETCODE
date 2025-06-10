@@ -43,7 +43,8 @@ public class solution_1 {
     public static int findMiddleIndex(int[] nums) {
         
         for (int i = 0; i < nums.length; i++) {
-
+            int leftSum = 0;
+            int rightSum =0;
         }
     };
 }
