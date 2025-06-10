@@ -51,7 +51,10 @@ public class solution_1 {
                 leftSum += nums[j];
             }
 
-            // Calculate right sum
+            // Calculate right sum  
+            for (int j = i + 1; j < nums.length; j++) {
+                rightSum += nums[j];
+            }
         }
     };
 }
