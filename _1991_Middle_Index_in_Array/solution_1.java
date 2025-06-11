@@ -42,7 +42,7 @@
 public class solution_1 {
     public static int findMiddleIndex(int[] nums) {
         
-        for (int i = 0; i < nums.length; i++) {
+        for (int i = 1; i < nums.length - 1 ; i++) {
             int leftSum = 0;
             int rightSum =0;
 
@@ -55,7 +55,8 @@ public class solution_1 {
             for (int j = i + 1; j < nums.length; j++) {
                 rightSum += nums[j];
             }
-
+            
+        
             // Check if left sum equals right sum
             if (leftSum == rightSum) {
                 return i; // Return the leftmost middle index
@@ -69,7 +70,7 @@ public class solution_1 {
         System.out.println(findMiddleIndex(nums)); // Output: 3
 
         nums = new int[]{1, -1, 4};
-        System.out.println(findMiddleIndex(nums)); // Output: 2
+        System.out.println(findMiddleIndex(nums)); // Output: -1
 
         nums = new int[]{2, 5};
         System.out.println(findMiddleIndex(nums)); // Output: -1
