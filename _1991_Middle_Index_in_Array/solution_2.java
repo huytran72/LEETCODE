@@ -20,12 +20,12 @@ public class solution_2 {
 
         for (int i = 0; i < nums.length; i++) {
             rightSum = sum - leftSum - nums[i]; // Calculate right sum
-        }
 
-        if(leftSum == rightSum) {
-            return i; // Return the leftmost middle index
-        } else {
-            leftSum += nums[i]; // Update left sum for the next iteration
+            if(leftSum == rightSum) {
+                return i; // Return the leftmost middle index
+            } else {
+                leftSum += nums[i]; // Update left sum for the next iteration
+            }
         }
 
         return -1; // If no middle index found, return -1
