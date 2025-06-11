@@ -24,6 +24,9 @@ public class solution_2 {
 
         if(leftSum == rightSum) {
             return i; // Return the leftmost middle index
+        } else {
+            leftSum += nums[i]; // Update left sum for the next iteration
         }
+
     };
 }
