@@ -78,4 +78,5 @@ public class solution_1 {
 
 // Time Complexity: O(n^2) - For each index, we calculate the left and right sums which takes O(n) time.
 
+// Space Complexity: O(1) - We are using a constant amount of space for the left and right sums.
 
