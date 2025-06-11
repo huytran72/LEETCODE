@@ -21,5 +21,9 @@ public class solution_2 {
         for (int i = 0; i < nums.length; i++) {
             rightSum = sum - leftSum - nums[i]; // Calculate right sum
         }
+
+        if(leftSum == rightSum) {
+            return i; // Return the leftmost middle index
+        }
     };
 }
