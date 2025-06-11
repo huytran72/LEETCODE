@@ -10,8 +10,9 @@
 
 public class solution_2 {
     public static int findMiddleIndex(int[] nums) {
-
         int sum = 0;
+        int leftSum = 0;
+
         for(int num: nums) {
             sum += num; // Calculate total sum of the array
         }
