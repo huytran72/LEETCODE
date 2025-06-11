@@ -12,14 +12,14 @@ public class solution_2 {
     public static int findMiddleIndex(int[] nums) {
         int sum = 0;
         int leftSum = 0;
-        int rightSum = 0;
+        
 
         for(int num: nums) {
             sum += num; // Calculate total sum of the array
         }
 
         for (int i = 0; i < nums.length; i++) {
-            rightSum = sum - leftSum - nums[i]; // Calculate right sum
+            int rightSum = sum - leftSum - nums[i]; // Calculate right sum
 
             if(leftSum == rightSum) {
                 return i; // Return the leftmost middle index
