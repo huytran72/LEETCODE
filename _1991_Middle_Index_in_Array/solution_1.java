@@ -75,3 +75,7 @@ public class solution_1 {
         System.out.println(findMiddleIndex(nums)); // Output: -1
     }
 }
+
+// Time Complexity: O(n^2) - For each index, we calculate the left and right sums which takes O(n) time.
+
+
