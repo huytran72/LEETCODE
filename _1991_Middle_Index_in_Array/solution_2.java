@@ -29,6 +29,10 @@ public class solution_2 {
         }
 
         return -1; // If no middle index found, return -1
-
     };
+
+    public static void main(String[] args) {
+        int[] nums = {2, 3, -1, 8, 4};
+        System.out.println(findMiddleIndex(nums)); // Output: 3
+    }
 }
