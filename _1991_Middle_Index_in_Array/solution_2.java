@@ -28,5 +28,7 @@ public class solution_2 {
             leftSum += nums[i]; // Update left sum for the next iteration
         }
 
+        return -1; // If no middle index found, return -1
+
     };
 }
