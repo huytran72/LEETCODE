@@ -43,3 +43,6 @@ public class solution_2 {
         System.out.println(findMiddleIndex(nums4));
     }
 }
+
+// TYime Complexity: O(n)
+// Space Complexity: O(1) - We are using a constant amount of space for variables.
