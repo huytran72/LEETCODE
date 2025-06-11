@@ -35,7 +35,7 @@ public class solution_2 {
         int[] nums = {2, 3, -1, 8, 4};  // Output: 3
         int[] nums2 = {1, -1, 4};          // Output: 2
         int[] nums3 = {2, 5};               // Output: -1
-        int[] nums4 = {1,3,4,7,8,3,4,-2,6}; // Output: 3
+        int[] nums4 = {1,3,4,7,8,3,4,-2,6}; // Output: -1
 
         System.out.println(findMiddleIndex(nums)); 
         System.out.println(findMiddleIndex(nums2));
