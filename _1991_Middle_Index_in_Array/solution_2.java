@@ -5,6 +5,7 @@
 // 2. Loop the array from left to right
 // 2.1. leftSum is the sum of elements from 0 to i - 1
 // 2.2. rightSum is totalSum - leftSum - nums[i]
+// 3. If leftSum equals rightSum, return i.
 
 public class solution_2 {
     public static int findMiddleIndex(int[] nums) {
