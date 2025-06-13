@@ -30,6 +30,12 @@ public class solution_1 {
             }
         }
 
+        for (int i = 0; i < nums.length; i++) {
+            if (i != maxIndex && maxVal < 2 * nums[i]) {
+                return -1;
+            }
+        }
+
 
         return maxIndex;
     };
