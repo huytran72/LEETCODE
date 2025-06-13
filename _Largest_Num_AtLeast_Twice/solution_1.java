@@ -29,5 +29,8 @@ public class solution_1 {
                 maxIndex = i;
             }
         }
+
+
+        return maxIndex;
     };
 }
