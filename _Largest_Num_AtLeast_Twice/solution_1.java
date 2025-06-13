@@ -35,8 +35,13 @@ public class solution_1 {
                 return -1;
             }
         }
-
-
         return maxIndex;
     };
+
+    // Test case
+    public static void main(String[] args) {
+        
+    }
 }
+
+
