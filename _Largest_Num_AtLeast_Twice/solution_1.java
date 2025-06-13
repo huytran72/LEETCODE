@@ -21,15 +21,10 @@
 // Step 1: 
 // 1. Create a variable maxVal to store the largest value (initially set to nums[0])
 // 2. Create a variable maxIndex to store the index of maxVal (initially set to 0)
-
-// Loop through each element in the array:
-
-// If nums[i] > maxVal, then:
-
-// Update maxVal = nums[i]
-
-// Update maxIndex = i
-
+// 3. Loop through each element in the array:
+// 4. If nums[i] > maxVal, then:
+// 5. Update maxVal = nums[i]
+// 6. Update maxIndex = i
 // After finishing the loop, maxVal will hold the largest number, and maxIndex will be its index.
 
 
