@@ -20,6 +20,14 @@
 
 public class solution_1 {
     public static int domiantIndex(int[] nums) {
+        int maxVal = nums[0];
+        int maxIndex = 0;
 
-    }
+        for (int i = 1; i < nums.length; i++) {
+            if (nums[i] > maxVal) {
+                maxVal = nums[i];
+                maxIndex = i;
+            }
+        }
+    };
 }
