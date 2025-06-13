@@ -40,7 +40,9 @@ public class solution_1 {
 
     // Test case
     public static void main(String[] args) {
-        
+        int[] nums1 = {3,6,7,9};
+        System.out.println(domiantIndex(nums1)); // Output: -1
+
     }
 }
 
