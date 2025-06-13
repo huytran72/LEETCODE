@@ -17,6 +17,24 @@
 // Explanation: 4 is less than twice the value of 3, so we return -1.
 
 
+// Solution:
+// Step 1: 
+// 1. Create a variable maxVal to store the largest value (initially set to nums[0])
+// 2. Create a variable maxIndex to store the index of maxVal (initially set to 0)
+
+// Loop through each element in the array:
+
+// If nums[i] > maxVal, then:
+
+// Update maxVal = nums[i]
+
+// Update maxIndex = i
+
+// After finishing the loop, maxVal will hold the largest number, and maxIndex will be its index.
+
+
+
+
 
 public class solution_1 {
     public static int domiantIndex(int[] nums) {
