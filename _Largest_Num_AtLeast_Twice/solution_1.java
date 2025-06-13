@@ -77,3 +77,7 @@ public class solution_1 {
 }
 
 
+// Time Complexity: O(n)
+// Space Complexity: O(1)
+
+
