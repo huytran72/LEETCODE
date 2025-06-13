@@ -47,7 +47,10 @@ public class solution_1 {
         System.out.println(domiantIndex(nums2)); // Output: -1
 
         int[] nums3 = {1,2,3,6};
-        System.out.println(domiantIndex(nums3)); // Output: 6
+        System.out.println(domiantIndex(nums3)); // Output: 3
+
+        int[] nums4 = {3,6,1,0};
+        System.out.println(domiantIndex(nums4)); // Output: 1
 
     }
 }
