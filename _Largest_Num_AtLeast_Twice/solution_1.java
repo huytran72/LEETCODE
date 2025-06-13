@@ -19,5 +19,7 @@
 
 
 public class solution_1 {
-    
+    public static int domiantIndex(int[] nums) {
+
+    }
 }
