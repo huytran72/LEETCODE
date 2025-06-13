@@ -27,6 +27,14 @@
 // 6. Update maxIndex = i
 // After finishing the loop, maxVal will hold the largest number, and maxIndex will be its index.
 
+// Step 2:
+// 1. Loop through the array again to check if the largest number is at least twice every other number.
+// 2. For each element nums[i]:
+// If i is the same as maxIndex, skip it (because we're comparing the largest number with the other numbers).
+// Otherwise, check if maxVal < 2 * nums[i]:
+// If this is true, it means the largest number is not at least twice as big as this number → return -1
+// 3. If no violations are found after checking all elements, return maxIndex
+
 
 
 
