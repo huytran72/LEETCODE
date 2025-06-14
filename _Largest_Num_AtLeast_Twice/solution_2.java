@@ -4,6 +4,7 @@
 
 // Idea:
 // 1. Loop and find 1st max and 2nd max
+// 2. Find maxVal and maxIndex
 
 public class solution_2 {
     
