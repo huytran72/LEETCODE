@@ -11,6 +11,10 @@
 
 // Implementation:
 // 1. Create 3 variables: maxVal, secondMax, and maxIndex 
+// 2. Loop: 
+//   - If nums[i] > maxVal, then:
+//     - Update secondMax = maxVal
+//     - Update maxVal = nums[i]
 
 public class solution_2 {
     
