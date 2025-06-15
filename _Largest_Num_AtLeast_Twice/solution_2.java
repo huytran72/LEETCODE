@@ -10,6 +10,7 @@
 
 
 // Implementation:
+// 1. Create 3 variables: maxVal, secondMax, and maxIndex 
 
 public class solution_2 {
     
