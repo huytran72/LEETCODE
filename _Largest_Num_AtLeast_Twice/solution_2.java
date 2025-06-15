@@ -16,6 +16,7 @@
 //     - Update secondMax = maxVal
 //     - Update maxVal = nums[i]
 //     - Update maxIndex = i
+//   - Else if nums[i] > secondMax, then:
 
 public class solution_2 {
     
