@@ -8,6 +8,9 @@
 // 3. Find secondMax
 // 4. If maxVal >= 2 * secondMax, return maxIndex
 
+
+// Implementation:
+
 public class solution_2 {
     
 }
