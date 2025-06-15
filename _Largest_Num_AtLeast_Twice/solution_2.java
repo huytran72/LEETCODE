@@ -18,6 +18,7 @@
 //     - Update maxIndex = i
 //   - Else if nums[i] > secondMax, then:
 //     - Update secondMax = nums[i]
+// 3. After the loop, check if maxVal >= 2 * secondMax
 
 public class solution_2 {
     
