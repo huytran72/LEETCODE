@@ -22,5 +22,8 @@
 //  If true, return maxIndex; otherwise, return -1
 
 public class solution_2 {
+    public static int domiantIndex(int[] nums) {
+        
+    }
     
 }
