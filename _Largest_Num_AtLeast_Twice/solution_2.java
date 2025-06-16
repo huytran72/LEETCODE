@@ -23,7 +23,8 @@
 
 public class solution_2 {
     public static int domiantIndex(int[] nums) {
-        
+        int maxVal = Integer.MIN_VALUE;
+
     }
     
 }
