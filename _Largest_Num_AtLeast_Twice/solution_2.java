@@ -25,8 +25,8 @@ public class solution_2 {
     public static int domiantIndex(int[] nums) {
 
         if(nums.length == 0) return -1; // Handle empty array case
-        
-        int maxVal = Integer.MIN_VALUE;
+
+        int maxVal = -1;
         int secondMax = Integer.MIN_VALUE;
 
     }
