@@ -30,6 +30,10 @@ public class solution_2 {
         int secondMax = -1;
         int maxIndex = -1;
 
+        for() {
+            
+        }
+
     }
     
 }
