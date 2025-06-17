@@ -50,5 +50,15 @@ public class solution_2 {
     }
 
     // Test Case
+    public static void main(String[] args) {
+        int[] nums1 = {3, 6, 1, 0};
+        System.out.println(domiantIndex(nums1)); // Output: 1
+
+        int[] nums2 = {1, 2, 3, 4};
+        System.out.println(domiantIndex(nums2)); // Output: -1
+
+        int[] nums3 = {10, 5, 2, 1};
+        System.out.println(domiantIndex(nums3)); // Output: 0
+    }
     
 }
