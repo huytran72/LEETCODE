@@ -41,6 +41,11 @@ public class solution_2 {
         }
 
         // Check if the largest number is at least twice as large as the second largest
+        if(maxVal >= 2 * secondMax) {
+            return maxIndex; // Return index of the largest number
+        } else {
+            return -1; // Return -1 if condition is not met
+        }
 
     }
     
