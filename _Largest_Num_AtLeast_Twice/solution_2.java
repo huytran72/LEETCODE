@@ -40,6 +40,8 @@ public class solution_2 {
             }
         }
 
+        // Check if the largest number is at least twice as large as the second largest
+
     }
     
 }
