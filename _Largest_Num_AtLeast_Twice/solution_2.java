@@ -30,8 +30,8 @@ public class solution_2 {
         int secondMax = -1;
         int maxIndex = -1;
 
-        for() {
-            
+        for(int i = 0; i < nums.length; i++) {
+
         }
 
     }
