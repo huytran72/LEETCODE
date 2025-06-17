@@ -31,7 +31,13 @@ public class solution_2 {
         int maxIndex = -1;
 
         for(int i = 0; i < nums.length; i++) {
-
+            if(nums[i] > maxVal) {
+                secondMax = maxVal; // Update second max before changing max
+                maxVal = nums[i]; // Update max
+                maxIndex = i; // Update index of max
+            } else if(nums[i] > secondMax) {
+                secondMax = nums[i]; // Update second max if current is greater
+            }
         }
 
     }
