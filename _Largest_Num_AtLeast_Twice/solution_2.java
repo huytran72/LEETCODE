@@ -28,6 +28,7 @@ public class solution_2 {
 
         int maxVal = -1;
         int secondMax = -1;
+        int maxIndex = -1;
 
     }
     
