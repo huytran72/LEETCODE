@@ -27,7 +27,7 @@ public class solution_2 {
         if(nums.length == 0) return -1; // Handle empty array case
 
         int maxVal = -1;
-        int secondMax = Integer.MIN_VALUE;
+        int secondMax = -1;
 
     }
     
