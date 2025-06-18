@@ -64,3 +64,6 @@ public class solution_2 {
 
 // Time Complexity: O(n)
 // Space Complexity: O(1)
+
+
+// Why put maxVal = -1 and secondMax = -1. maxIndex = -1?
