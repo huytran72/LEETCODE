@@ -44,7 +44,7 @@ public class solution_2 {
         if(maxVal >= 2 * secondMax) {
             return maxIndex; // Return index of the largest number
         } else {
-            return -1; // Return -1 if condition is not met
+            return -1; // Return -1
         }
 
     }
