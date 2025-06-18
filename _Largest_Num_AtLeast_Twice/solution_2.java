@@ -60,5 +60,6 @@ public class solution_2 {
         int[] nums3 = {10, 5, 2, 1};
         System.out.println(domiantIndex(nums3)); // Output: 0
     }
-    
 }
+
+// Time Complexity: O(n)
