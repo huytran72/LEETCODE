@@ -67,3 +67,4 @@ public class solution_2 {
 
 
 // Why put maxVal = -1 and secondMax = -1. maxIndex = -1?
+// Because we want to ensure that we can handle cases where all numbers are negative or zero.
