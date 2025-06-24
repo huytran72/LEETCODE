@@ -44,6 +44,12 @@ public class solution_1 {
     }
 
     public static void main(String[] args) {
+        solution_1 solution = new solution_1();
+
+        int numRows = 5; // Example input
+        List<List<Integer>> result = solution.generate(numRows);
+
+        // Print the result
         
     }
 }
