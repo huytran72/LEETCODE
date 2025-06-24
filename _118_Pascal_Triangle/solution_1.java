@@ -50,6 +50,9 @@ public class solution_1 {
         List<List<Integer>> result = solution.generate(numRows);
 
         // Print the result
-        
+        for (List<Integer> row : result) {
+            System.out.println(row);
+        }
+
     }
 }
