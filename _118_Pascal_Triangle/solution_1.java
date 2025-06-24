@@ -39,10 +39,9 @@ public class solution_1 {
 
             // Add the new row to the list
             pascalTriangle.add(row);
+        }
+        return pascalTriangle;
     }
-
-
-
 
     public static void main(String[] args) {
         
